@@ -49,5 +49,5 @@ app.post('/upload', (req, res) => {
 });
 
 app.listen(process.env.PORT, () => {
-    console.log("Server is running at port ", port);
+    console.log("Server is running at port ");
 });
