@@ -1,7 +1,7 @@
 {
   "name": "example",
   "version": "1.0.0",
-  "main": "example.js",
+  "main": "image.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node image.js"
