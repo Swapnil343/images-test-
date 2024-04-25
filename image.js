@@ -7,7 +7,7 @@ const mongo_key="mongodb+srv://yougankrajput0561:3OIZ2TzOrf0qi2kk@cluster0.0fxll
 
 mongoose.connect(mongo_key);
 const app = express();
-const port = 8080;
+const PORT = 8080;
 
 app.use(bodyParser.raw({ type: 'image/*' })); 
 
@@ -48,6 +48,6 @@ app.post('/upload', (req, res) => {
     });
 });
 
-app.listen(port, () => {
+app.listen(process.env.PORT, () => {
     console.log("Server is running at port ", port);
 });
